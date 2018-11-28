@@ -19,8 +19,10 @@ dotfiles_files:
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
+  - ack
   - autoconf
   - bash-completion
+  - fzf
   - gettext
   - git
   - go
@@ -45,6 +47,7 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  - bettertouchtool
   - docker
   - dropbox
   - google-chrome
