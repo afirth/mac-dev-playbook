@@ -1,0 +1,4 @@
+---
+- name: Run .perl_local_lib dotfile
+  shell: "{{ perl_script }}"
+  changed_when: false
