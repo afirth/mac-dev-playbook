@@ -9,16 +9,16 @@ This is a work in progress, and is mostly a means for me to document my current 
 ## Installation
 
   1. Ensure Apple's command line tools are installed (`xcode-select --install` to launch the installer).
-    - `xcode-select --install`
+      - `xcode-select --install`
   2. [Install Ansible](http://docs.ansible.com/intro_installation.html).
-    - `sudo easy_install pip`
-    - `sudo pip install ansible`
+      - `sudo easy_install pip`
+      - `sudo pip install ansible`
   3. Clone this repository to your local drive.
-    - `mkdir ~/git && cd ~/git/ && git clone https://github.com/afirth/mac-dev-playbook`
+      - `mkdir ~/git && cd ~/git/ && git clone https://github.com/afirth/mac-dev-playbook`
   4. Install required Ansible roles.
-    - `cd ~/git/mac-dev-playbook && ansible-galaxy install -r requirements.yml`
+      - `cd ~/git/mac-dev-playbook && ansible-galaxy install -r requirements.yml`
   5. Run the main playbook. Enter your account password when prompted.
-    - `cd ~/git/mac-dev-playbook && ansible-playbook main.yml -i inventory -K`
+      - `cd ~/git/mac-dev-playbook && ansible-playbook main.yml -i inventory -K`
 
 > Note: If some Homebrew commands fail, you might need to agree to Xcode's license or fix some other Brew issue. Run `brew doctor` to see if this is the case.
 
@@ -54,7 +54,7 @@ It's my hope that I can get the rest of these things wrapped up into Ansible pla
   5. Set trackpad tracking rate.
   6. Set mouse tracking rate.
   7. Configure extra Mail and/or Calendar accounts (e.g. Google, Exchange, etc.).
-    - open chrome and navigate to www.gmail.com - click icon right side of address bar
+      - open chrome and navigate to www.gmail.com - click icon right side of address bar
 
 ### Applications/packages to be added:
 
