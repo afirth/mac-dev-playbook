@@ -21,7 +21,8 @@ homebrew_installed_packages:
   # - ansible # Installed via Pip.
   - ack
   - autoconf
-  - bash-completion
+  - bash
+  - bash-completion@2
   - fzf
   - gettext
   - git
