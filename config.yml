@@ -11,6 +11,8 @@ dotfiles_repo_accept_hostkey: yes
 dotfiles_repo_local_destination: ~/Documents/dotfiles
 dotfiles_files:
   - .bash_profile
+  - .prompt_command
+  - .prompt_colors
   - .gitignore
   - .inputrc
   - .osx
